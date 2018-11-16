@@ -1,6 +1,9 @@
 
 GIS 
 
+Applications
+1. https://grindgis.com/blog/gis-applications-uses
+
 Agriculture Related Links Tutorial
 
 1. https://adamchukpa.mcgill.ca/qgis/index.html
