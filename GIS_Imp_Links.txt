@@ -1,19 +1,33 @@
 
 GIS 
 
-Applications
+A) Applications
 
 1. https://grindgis.com/blog/gis-applications-uses
 
-Datasets
+B) Datasets
 
 1. https://earthexplorer.usgs.gov/
 2. http://www.naturalearthdata.com/downloads/10m-cultural-vectors/
+3. https://toolbox.google.com/datasetsearch
 
-Agriculture Related Links Tutorial
+C) Agriculture Related Links Tutorial
 
 1. https://adamchukpa.mcgill.ca/qgis/index.html
 2. https://csisa.org/wp-content/uploads/sites/2/2018/04/QGIS_CSISA_2018.pdf
+3. https://servirglobal.net/Portals/0/Documents/Articles/ChangeDetectionTraining/Module3_LC_Classification_Accuracy_Assessment.pdf
 
-Video Links
+D) Video Links
 1. https://www.youtube.com/watch?v=_3MyyiuPAqE
+
+2.Image Analysis using NDVI to Assess Vegetation Greenness (iGETT-Remote Sensing) => https://www.youtube.com/watch?v=sPnFkp-25fM
+
+3.how to calculate NDVI using ArcGis => https://www.youtube.com/watch?v=h3gjnD1QqUU
+
+4.Convert NDVI raster to NDVI shapefile using ArcGIS => https://www.youtube.com/watch?v=MUk3MoG_dio
+
+E) Best Agriculture tutorial with data sets and video
+1.Supervised Classification of Hyperspectral Data: a Tutorial Using the Semi-Automatic Classification Plugin for QGIS => https://fromgistors.blogspot.com/2014/10/supervised-classification-of-hyperspectral.html?spref=yml
+
+2.Land Cover Classification of Cropland: a Tutorial Using the Semi-Automatic Classification Plugin for QGIS =>
+https://fromgistors.blogspot.com/2014/01/land-cover-classification-of-cropland.html
