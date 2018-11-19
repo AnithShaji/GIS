@@ -13,3 +13,6 @@ Agriculture Related Links Tutorial
 
 1. https://adamchukpa.mcgill.ca/qgis/index.html
 2. https://csisa.org/wp-content/uploads/sites/2/2018/04/QGIS_CSISA_2018.pdf
+
+Video Links
+1. https://www.youtube.com/watch?v=_3MyyiuPAqE
