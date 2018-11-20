@@ -4,6 +4,7 @@ GIS
 A) Applications
 
 1. https://grindgis.com/blog/gis-applications-uses
+ please take a look on point no. 20 in above page.
 
 B) Datasets
 
