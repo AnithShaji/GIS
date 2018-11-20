@@ -32,3 +32,6 @@ E) Best Agriculture tutorial with data sets and video
 
 2.Land Cover Classification of Cropland: a Tutorial Using the Semi-Automatic Classification Plugin for QGIS =>
 https://fromgistors.blogspot.com/2014/01/land-cover-classification-of-cropland.html
+
+3.Estimation of Land Surface Temperature with Landsat and ASTER =>
+https://fromgistors.blogspot.com/2016/09/estimation-of-land-surface-temperature.html?spref=yml
