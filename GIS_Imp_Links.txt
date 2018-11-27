@@ -13,6 +13,9 @@ B) Datasets
 3. https://toolbox.google.com/datasetsearch
 4. https://glovis.usgs.gov/
 
+5.https://github.com/awslabs/open-data-registry/blob/master/datasets/landsat-8.yaml
+6.http://demos.fmeserver.com/landsat-sentinel-selector/
+
 C) Agriculture Related Links Tutorial
 
 1. https://adamchukpa.mcgill.ca/qgis/index.html
