@@ -33,6 +33,7 @@ D) Video Links
 
 E) Best Agriculture tutorial with data sets and video
 1.Supervised Classification of Hyperspectral Data: a Tutorial Using the Semi-Automatic Classification Plugin for QGIS => https://fromgistors.blogspot.com/2014/10/supervised-classification-of-hyperspectral.html?spref=yml
+http://www.digital-geography.com/using-sentinel-2-for-crop-monitoring/
 
 2.Land Cover Classification of Cropland: a Tutorial Using the Semi-Automatic Classification Plugin for QGIS =>
 https://fromgistors.blogspot.com/2014/01/land-cover-classification-of-cropland.html
