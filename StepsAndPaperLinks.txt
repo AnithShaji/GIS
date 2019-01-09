@@ -1,0 +1,73 @@
+		KERN Solution Formulae 
+	---------------------------------
+Bands used :
+
+Band 10 = LC08_L1TP_041035_20141226_20170302_01_T1_B10@1 (uses RADIANCE_ADD_BAND_10 and RADIANCE_MULT_BAND_10)
+Band 4 = LC08_L1TP_041035_20141226_20170302_01_T1_B4@1   (uses REFLECTANCE_MULT_BAND_4 and REFLECTANCE_ADD_BAND_4)
+Band 5 = LC08_L1TP_041035_20141226_20170302_01_T1_B5@1   (uses REFLECTANCE_MULT_BAND_5 and REFLECTANCE_ADD_BAND_5)
+ 
+	NOTE :will get these constant value from file Meta data attached in github in file "MetaData"
+	     :This method is known as Single window algorithm
+
+	Step.1)TOA = 3.3420E-04  * "LC08_L1TP_041035_20141226_20170302_01_T1_B10@1"   +  0.10000  
+
+	Step.2)BT = (1321.0789  /  ln (  ( 774.8853 / "TOA@1" )  + 1))  - 273.15
+
+	Step.3)Band5Reflection@1 = (2.0000E-05 * ("LC08_L1TP_041035_20161129_20170219_01_T1_B5@1")) + -0.100000
+
+	Step.4)Band4Reflection@1 = (2.0000E-05 * ("LC08_L1TP_041035_20161129_20170219_01_T1_B4@1")) + -0.100000
+
+	Step.5)NDVI =("Band5Reflection@1" - "Band4Reflection@1") /( "Band5Reflection@1" + "Band4Reflection@1")
+
+	Step.6)PV = square( ( "NDVI@1" - NDVI_Min/ (NDVI_Max  - NDVI_Min))
+
+	Step.7)E = 0.004  * "PV@1"  + 0.986
+
+	Step.8)LST = ( "BT@1" /  ( 1  +  ( 0.00115  *  "BT@1"  / 1.4388 )  *  ln ( "E@1" )  )  ) 
+
+
+===================================================================================================================================
+	Class Notes (NDVI Band4 and 5 uses REFLECTANCE_MULT_BAND_N and REFLECTANCE_ADD_BAND_N)
+	--------------------------------------------------------------------------------------
+
+5.2 OLI Top of Atmosphere Reflectance
+Similar to the conversion to radiance, the 16-bit integer values in the Level 1 product
+can also be converted to TOA reflectance. The following equation is used to convert
+Level 1 DN values to TOA reflectance:
+??’ = M? * Qcal + A?
+where:
+??' = TOA Planetary Spectral Reflectance, without correction for solar
+angle. (Unitless)
+M? = Reflectance multiplicative scaling factor for the band
+(REFLECTANCE_MULT_BAND_n from the metadata).
+A? = Reflectance additive scaling factor for the band
+(REFLECTANCE_ADD_BAND_N from the metadata).
+Qcal = Level 1 pixel value in DN
+
+from meta data file take walues:
+
+(2.0000*(10^0.5) *( "LC08_L1TP_197024_20180703_20180717_01_T1_B4@1")) +( -0.100000)
+
+("Band5Reflection@1" - "Band4ReflectionNew@1") / ("Band5Reflection@1" + "Band4ReflectionNew@1")
+
+
+
+===================================================================================================================================
+		Go through these papers
+	----------------------------------
+
+paper : surface temp
+https://www.ncbi.nlm.nih.gov/pmc/articles/PMC3918750/
+https://www.researchgate.net/publication/311518778_Automated_Land_Surface_Temperature_Retrieval_from_Landsat_8_Satellite_Imagery_A_Case_Study_of_Kahramanmaras_-_Turkey
+https://www.researchgate.net/publication/276110339_An_Improved_Mono-Window_Algorithm_for_Land_Surface_Temperature_Retrieval_from_Landsat_8_Thermal_Infrared_Sensor_Data
+
+extra links
+https://www.researchgate.net/post/What_is_the_difference_between_Land_Surface_Temperature_LST_and_Urban_Heat_Island_UHI
+single window : https://www.youtube.com/watch?v=uDQo2a5e7dM
+
+
+===================================================================================================================================
+
+steps for land cover
+
+https://fromgistors.blogspot.com/2016/09/estimation-of-land-surface-temperature.html
