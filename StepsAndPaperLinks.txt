@@ -34,7 +34,7 @@ Band 5 = LC08_L1TP_041035_20141226_20170302_01_T1_B5@1   (uses REFLECTANCE_MULT_
 Similar to the conversion to radiance, the 16-bit integer values in the Level 1 product
 can also be converted to TOA reflectance. The following equation is used to convert
 Level 1 DN values to TOA reflectance:
-??’ = M? * Qcal + A?
+??â€™ = M? * Qcal + A?
 where:
 ??' = TOA Planetary Spectral Reflectance, without correction for solar
 angle. (Unitless)
@@ -57,9 +57,10 @@ from meta data file take walues:
 	----------------------------------
 
 paper : surface temp
-https://www.ncbi.nlm.nih.gov/pmc/articles/PMC3918750/
-https://www.researchgate.net/publication/311518778_Automated_Land_Surface_Temperature_Retrieval_from_Landsat_8_Satellite_Imagery_A_Case_Study_of_Kahramanmaras_-_Turkey
-https://www.researchgate.net/publication/276110339_An_Improved_Mono-Window_Algorithm_for_Land_Surface_Temperature_Retrieval_from_Landsat_8_Thermal_Infrared_Sensor_Data
+1)https://ieeexplore.ieee.org/document/6871305
+2)https://www.ncbi.nlm.nih.gov/pmc/articles/PMC3918750/
+3)https://www.researchgate.net/publication/311518778_Automated_Land_Surface_Temperature_Retrieval_from_Landsat_8_Satellite_Imagery_A_Case_Study_of_Kahramanmaras_-_Turkey
+4)https://www.researchgate.net/publication/276110339_An_Improved_Mono-Window_Algorithm_for_Land_Surface_Temperature_Retrieval_from_Landsat_8_Thermal_Infrared_Sensor_Data
 
 extra links
 https://www.researchgate.net/post/What_is_the_difference_between_Land_Surface_Temperature_LST_and_Urban_Heat_Island_UHI
