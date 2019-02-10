@@ -58,6 +58,7 @@ from meta data file take walues:
 
 paper : surface temp
 1)https://ieeexplore.ieee.org/document/6871305
+1.1)https://www.researchgate.net/publication/324794211_Crop_Yield_Estimation_Based_on_Landsat-NDVI_A_Case_Study_of_Sitapur_District_Uttar_Pradesh_India
 2)https://www.ncbi.nlm.nih.gov/pmc/articles/PMC3918750/
 3)https://www.researchgate.net/publication/311518778_Automated_Land_Surface_Temperature_Retrieval_from_Landsat_8_Satellite_Imagery_A_Case_Study_of_Kahramanmaras_-_Turkey
 4)https://www.researchgate.net/publication/276110339_An_Improved_Mono-Window_Algorithm_for_Land_Surface_Temperature_Retrieval_from_Landsat_8_Thermal_Infrared_Sensor_Data
