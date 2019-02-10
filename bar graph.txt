@@ -1,0 +1,17 @@
+Created on Sun Feb 10 19:22:22 2019
+
+@author: Aishwarya
+"""
+
+import matplotlib.pyplot as plt
+import numpy as np
+label=['Almonds','Pistachio','Grapes','Alfafa','Olives','Brocoli','Tomato','Oats','Oranges','Onion']
+y_axis=[1011439, 249432,8599900,402509,4275,614,535506,31321,236081,68841]
+index = np.arange(len(label))
+plt.bar(index, y_axis)
+plt.xlabel('Crops', fontsize=20)
+plt.ylabel('Pixel count', fontsize=20)
+plt.xticks(index, label, fontsize=8, rotation=30)
+plt.ylim(614,1011439)
+plt.title('2013')
+plt.show()
